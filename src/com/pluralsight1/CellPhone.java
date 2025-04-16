@@ -29,19 +29,19 @@ public class CellPhone {
 
     //setting getter method
     public int getSerialNumber() {
-        return serialNumber;
+        return this.serialNumber;
     }
     public String getModel(){
-        return model;
+        return this.model;
     }
     public String getCarrier(){
-        return carrier;
+        return this.carrier;
     }
     public String getPhoneNumber(){
-        return phoneNumber;
+        return this.phoneNumber;
     }
     public String getOwner(){
-        return owner;
+        return this.owner;
     }
     //set setter
 

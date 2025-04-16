@@ -56,13 +56,7 @@ public class CellPhoneApplication {
         System.out.println("Who is the owner of the phone? ");
         String owner2 = input.nextLine();
 
-        CellPhone phone3 = new CellPhone(
-            2066547656,
-            "Samsung ultra 25",
-            "T-mobile",
-            "206-656-656",
-            "Malik"
-        );
+        CellPhone phone3 = new CellPhone(2066547656, "Samsung ultra 25", "T-mobile", "206-656-656", "Malik");
 
 //        //setting data
 //        phone2.setSerialNumber(serialNumber2);
